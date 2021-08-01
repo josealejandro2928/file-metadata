@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "API project for freeCodeCamp",
   "main": "server.js",
+  "author":"Jose Alejandro Concepcoin Alvarez",
   "scripts": {
     "start": "node server.js"
   },

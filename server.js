@@ -22,7 +22,7 @@ app.get('/', function (req, res) {
 multerInit.initMulter();
 
 app.post('/api/fileanalyse', multerInit.multer.single('upfile'), (req, res) => {
-  let file = req.file;
+  // let file = req.file;
   // console.log('🚀 ~ file: server.js ~ line 26 ~ app.post ~ file', file);
   let response = {
     name: req.file.originalname,
